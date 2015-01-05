@@ -28,7 +28,9 @@ public class BasicInflateActivity extends BaseActivity implements View.OnClickLi
   private static final Random sRandom = new Random(System.currentTimeMillis());
   private static final int[] sDrawables = {
       R.drawable.logo,
-      R.drawable.vector_android
+      R.drawable.vector_android,
+
+
   };
   private ImageButton mButton;
   private int mLastResId;
